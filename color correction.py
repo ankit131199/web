@@ -6,7 +6,7 @@ def emptyFunction():
 
 cam = cv2.VideoCapture(0)
 
-windowsname = "TestTestTest"
+windowsname = "TestTest"
 cv2.namedWindow(windowsname)
 cv2.createTrackbar("h", windowsname,0,179,emptyFunction)
 cv2.createTrackbar("s", windowsname,0,255,emptyFunction)
